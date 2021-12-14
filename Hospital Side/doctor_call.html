@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Call</title>
+
+       <script src="https://code.jquery.com/jquery-3.3.1.js"
+       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+       </script>
+      <script>
+       $(function () {
+           $("#header").load("dashboard_ori.html");
+       });
+      </script>
+       <style>
+           body {
+                font-family: 'Roboto', sans-serif;
+                background-image: url(/Patient\ Side/images/contact.jfif);
+                background-size: cover;
+                background-position: auto;
+                height: 100vh;
+            }
+             .container{
+                  padding: 320px;
+                  padding-left: 570px;
+                  padding-top: 200px;
+             }
+            .btn {
+                font-family: "Roboto", sans-serif;
+                text-transform: uppercase;
+                outline: 0;
+                background:azure;
+                width: 50%;
+                border: 0;
+                padding: 15px;
+                color:black;
+                font-size: 14px;
+                cursor: pointer;
+            }
+                
+            .btn:hover {
+                transform: scale(1.03);
+                -webkit-transform: scale(1.03);
+                -moz-transform: scale(1.03);
+                -ms-transform: scale(1.03);
+                -o-transform: scale(1.03);
+                box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+            }
+
+       </style>
+       
+      
+
+    </head>
+
+    <body>
+        <header id="header"></header>
+        <div class="container">
+          
+            <form action="https://localhost:5000/">
+                <button class="btn" >call</button>
+                <p style="color: white;"> <b> (click the call button to enter the session) </b> </p>
+            </form>
+            
+        </div>
+
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </body>
+</html>
+ 
